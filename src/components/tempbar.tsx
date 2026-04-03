@@ -1,9 +1,12 @@
+import NavButton from "./NavButton";
+
 export default function Topbar() {
 
     return(
-        <nav className="p-2 flex justify-between bg-background border-b-1 border-foreground">
+        <nav className="p-3 flex justify-between bg-background border-b-3 border-foreground">
             <div>
-                <p>Hello there</p>
+                <NavButton href="/" text="Home" />
+                <NavButton href="/gallery" text="Gallery" />
             </div>
             <div>
                 <p>Hello there</p>
