@@ -1,12 +1,34 @@
 import GalleryImage from "./GalleryImage"
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Julius' Gallery",
+  description: "Beautiful pictures captured by me",
+};
+
 export default function Gallery() {
     return(
         <main className="relative min-h-screen text-foreground bg-background">
             <div className="relative py-32 px-10 gap-42 flex flex-col items-center max-w-7xl mx-auto bg-background">
                 <p className="p-4 border-2 rounded-md w-full">
-                    All images on this page are taken by me.
+                    All images on this page are captured by me.
                 </p>
+                <GalleryImage src="IMG_4050.JPG" caption="Sunset in Lisbon. October 2025"/>
+
+                <GalleryImage src="IMG_3935.JPG" caption="Castelo dos Mouros, Sintra. October 2025"/>
+
+                <GalleryImage src="IMG_3908.JPG" caption="Castelo dos Mouros, Sintra. October 2025"/>
+
+                <GalleryImage src="IMG_3884.JPG" caption="Palace in Sintra. October 2025"/>
+            
+                <GalleryImage src="IMG_3837.JPG" caption="National Palace of Pena, Sintra. October 2025"/>
+
+                <GalleryImage src="IMG_3720.JPG" caption="HELLO WORLD. October 2025"/>
+
+                <GalleryImage src="IMG_3704.JPG" caption="LX Factory, Lisbon. October 2025"/>
+
+                <GalleryImage src="IMG_3663.JPG" caption="Mural in Lisbon. October 2025"/>
 
                 <GalleryImage src="IMG_3606.JPG" caption="Parque Eduardo VII, Lisbon. October 2025"/>
 
