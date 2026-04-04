@@ -1,6 +1,6 @@
 import Image from "next/image";
-import background_image from "../../public/oresund.jpg"
-import dragon_gif from "../../public/dragon-dancing.gif"
+import background_image from "../../public/oresund.jpg";
+import dragon_gif from "../../public/dragon-dancing.gif";
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
             alt="Background"
             fill
             placeholder="blur"
+            priority
             className="object-cover"
           />
         </div>
