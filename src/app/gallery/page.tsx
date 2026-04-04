@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Gallery() {
     return(
         <main className="relative min-h-screen text-foreground bg-background">
-            <div className="relative py-32 px-10 gap-42 flex flex-col items-center max-w-7xl mx-auto bg-background">
+            <div className="relative py-32 px-10 gap-[10vw] flex flex-col items-center max-w-7xl mx-auto bg-background">
                 <p className="p-4 border-2 rounded-md w-full">
                     All images on this page are captured by me.
                 </p>
