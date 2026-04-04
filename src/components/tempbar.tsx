@@ -8,6 +8,9 @@ export default function Topbar() {
                 <NavButton href="/" text="Home" />
                 <NavButton href="/gallery" text="Gallery" />
             </div>
+            <h1 className="text-foreground">
+                julius.bivren
+            </h1>
             <div>
                 <p>Hello there</p>
             </div>
