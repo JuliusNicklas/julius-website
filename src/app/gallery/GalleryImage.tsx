@@ -17,7 +17,7 @@ export default function GalleryImage({src, caption}: GalleryImageProps) {
                 width={0}
                 height={0}
                 sizes="100vw"
-                objectFit="contain"
+                style={{objectFit: "contain"}}
                 className="w-auto max-w-full h-auto max-h-[85vh]"
             />
             <figcaption>
