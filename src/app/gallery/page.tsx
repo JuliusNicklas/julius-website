@@ -14,6 +14,32 @@ export default function Gallery() {
                 <p className="p-4 border-2 rounded-md w-full">
                     All images on this page are captured by me.
                 </p>
+                <GalleryImage src="IMG_4404.JPG" caption="Cherry blossom. April 2026"/>
+
+                <GalleryImage src="IMG_4401.JPG" caption="Vitsippor (wood anemone). April 2026"/>
+
+                <GalleryImage src="IMG_4395.JPG" caption="Some flower, idk. April 2026"/>
+
+                <GalleryImage src="IMG_4391.JPG" caption="White cherry blossom (I think). April 2026"/>
+
+                <GalleryImage src="IMG_4383.JPG" caption="Daffodils. April 2026"/>
+                
+                <GalleryImage src="IMG_4361.JPG" caption="Pacifiers. Norra fäladen, Lund. April 2026"/>
+
+                <GalleryImage src="IMG_4314.JPG" caption="Blue tit. April 2026"/>
+
+                <GalleryImage src="IMG_4256.JPG" caption="Bus. April 2026"/>
+
+                <GalleryImage src="IMG_4222.JPG" caption="Squirrel. April 2026"/>
+
+                <GalleryImage src="IMG_4186.JPG" caption="Tree. April 2026"/>
+                
+                <GalleryImage src="IMG_4183.JPG" caption="Flowerpot. April 2026"/>
+
+                <GalleryImage src="IMG_4145.JPG" caption="Cherry blossom 2. April 2026"/>
+
+                <GalleryImage src="IMG_4137.JPG" caption="Cherry blossom. April 2026"/>
+
                 <GalleryImage src="IMG_4050.JPG" caption="Sunset in Lisbon. October 2025"/>
 
                 <GalleryImage src="IMG_3935.JPG" caption="Castelo dos Mouros, Sintra. October 2025"/>
