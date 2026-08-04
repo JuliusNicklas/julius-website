@@ -3,7 +3,7 @@
 pkgs.mkShell {
 
   packages = with pkgs; [
-    nodejs
+    nodejsnix
   ];
 
   shellHook = ''
